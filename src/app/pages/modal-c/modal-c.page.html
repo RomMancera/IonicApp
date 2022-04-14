@@ -1,0 +1,19 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>{{nombre}} - {{especie}}</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+    <ion-button (click)="Regresar()" expand="block">
+        Return
+    </ion-button>
+
+    <ion-button (click)="enviarInfo()" expand="block">
+        Enviar
+    </ion-button>
+
+    <h4>comida : {{comida}}</h4>
+
+</ion-content>

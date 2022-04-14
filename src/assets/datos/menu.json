@@ -1,0 +1,92 @@
+[{
+        "name": "action-sheet",
+        "icon": "cog",
+        "ruta": "/action-sheet"
+    },
+    {
+        "name": "alert",
+        "icon": "alert",
+        "ruta": "/alert"
+    },
+    {
+        "name": "ion-avatar",
+        "icon": "person",
+        "ruta": "/ion-avatar"
+    },
+    {
+        "name": "Buttons",
+        "icon": "pizza",
+        "ruta": "/buttons"
+    },
+    {
+        "name": "Cards",
+        "icon": "card",
+        "ruta": "/cards"
+    },
+    {
+        "name": "CheckBox",
+        "icon": "eye",
+        "ruta": "/checkbox"
+    },
+    {
+        "name": "Galery",
+        "icon": "camera",
+        "ruta": "/galery"
+    },
+    {
+        "name": "DateTime",
+        "icon": "calendar",
+        "ruta": "/datetime"
+    },
+    {
+        "name": "Fab",
+        "icon": "baseball",
+        "ruta": "/fab"
+    },
+    {
+        "name": "Grid",
+        "icon": "grid",
+        "ruta": "/grid"
+    },
+    {
+        "name": "Infinite",
+        "icon": "wine",
+        "ruta": "/infinite"
+    },
+    {
+        "name": "Inputs",
+        "icon": "skull",
+        "ruta": "/inputs"
+    },
+    {
+        "name": "List",
+        "icon": "list",
+        "ruta": "/list"
+    },
+    {
+        "name": "Loadings",
+        "icon": "beer",
+        "ruta": "/loadings"
+    },
+    {
+        "name": "Modal",
+        "icon": "nutrition",
+        "ruta": "/modal-f"
+    },
+    {
+        "name": "Form-Load",
+        "icon": "create-outline",
+        "ruta": "/form-load"
+    },
+    {
+        "name": "Modal",
+        "icon": "skull",
+        "ruta": "/modal-f"
+    },
+    {
+        "name": "Popover",
+        "icon": "add",
+        "ruta": "/popover"
+    }
+
+]

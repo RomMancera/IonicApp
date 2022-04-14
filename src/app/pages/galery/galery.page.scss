@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+.zoom {
+    /* Aumentamos la anchura y altura durante 2 segundos */
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.zoom:hover {
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+       su tamaño con scale(2). */
+    transform: scale(2);
+}
+
+.titulo {
+    color: maroon;
+    font-family: 'Poppins', sans-serif;
+}

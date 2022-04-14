@@ -1,0 +1,40 @@
+<app-header titulo="Formulario y loading"></app-header>
+
+
+<ion-content>
+
+    <form #formulario="ngForm" (ngSubmit)="onSubmit(formulario)">
+
+        <ion-list-header>
+            <ion-label>Cumple con todos los parametros: {{formulario.valid}}</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+            <ion-label>Usuario:</ion-label>
+            <ion-input type="text" name="name" [(ngModel)]="usuario.usuario" required placeholder="Write your name"></ion-input>
+        </ion-item>
+
+
+        <ion-item>
+            <ion-label>Email:</ion-label>
+            <ion-input type="text" name="emails" [(ngModel)]="usuario.correo" required placeholder="Write your email" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"></ion-input>
+        </ion-item>
+
+
+        <ion-item>
+            <ion-label>Contraseña:</ion-label>
+            <ion-input type="password" name="pass" [(ngModel)]="usuario.password" maxlengtH="8" minlengtH="3" required placeholder="Write your password"></ion-input>
+        </ion-item>
+
+
+        <ion-item>
+            <ion-label>Curp:</ion-label>
+            <ion-input type="text" name="curp" [(ngModel)]="usuario.curp" maxlength="18" minlength="18" required placeholder="Write your curp"></ion-input>
+        </ion-item>
+
+        <ion-button [disabled]="formulario.invalid" expand="block" color="success" type="submit">
+            Enviar
+        </ion-button>
+
+    </form>
+</ion-content>
